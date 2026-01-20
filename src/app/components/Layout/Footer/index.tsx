@@ -20,7 +20,7 @@ const Footer = () => {
             </div>
             <div className='flex items-center gap-4'>
               <Link
-                href='https://www.linkedin.com/company/pt-mitrabhakti-inti-perdana/'
+                href='https://www.linkedin.com/company/pt-mitrabhakti-inti-Perdana/'
                 className='hover:text-primary text-black text-3xl'>
                 <Icon icon='jam:linkedin-square' />
               </Link>
@@ -96,7 +96,7 @@ const Footer = () => {
               target='_blank'
               className='hover:text-primary hover:underline'>
               {' '}
-              Mitra Bhakti Inti Persada
+              Mitra Bhakti Inti Perdana
             </Link>
           </p>
           <div className='flex gap-5 mt-5 lg:mt-0 justify-center lg:justify-start'>

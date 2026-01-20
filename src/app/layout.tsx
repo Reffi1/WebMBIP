@@ -11,8 +11,8 @@ const font = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: 'Mitrabhakti Inti Persada',
-  description: 'Website resmi Mitrabhakti Inti Persada',
+  title: 'Mitrabhakti Inti Perdana',
+  description: 'Website resmi Mitrabhakti Inti Perdana',
   icons: {
     icon: '/images/logo/MitrabhaktiLogo.png', // favicon
   },
@@ -33,7 +33,7 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
-              "name": "Mitrabhakti Inti Persada",
+              "name": "Mitrabhakti Inti Perdana",
               "url": "https://mitrabhakti.com",
               "logo": "https://mitrabhakti.com/images/logo/MitrabhaktiLogo.png",
               "sameAs": [

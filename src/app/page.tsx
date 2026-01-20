@@ -9,7 +9,7 @@ import { Metadata } from "next";
 
 
 export const metadata: Metadata = {
-  title: "Mitrabhakti Inti Persada",
+  title: "Mitrabhakti Inti Perdana",
 };
 
 export default function Home() {
