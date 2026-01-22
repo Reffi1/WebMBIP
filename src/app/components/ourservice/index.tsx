@@ -42,8 +42,9 @@ export default function OurService() {
                       alt={service.title}
                       width={400}
                       height={300}
+                      quality={80}
+                      loading="lazy"
                       className="w-full h-96 object-cover"
-                      unoptimized
                     />
                   ) : (
                     <div className="w-full h-96 bg-gray-100 flex items-center justify-center text-gray-500">

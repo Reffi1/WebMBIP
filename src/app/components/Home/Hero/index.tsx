@@ -7,20 +7,16 @@ const Hero = () => {
         className='relative w-full overflow-hidden min-h-[400px] md:min-h-[600px] bg-gray-100' 
       >
         <Image
-          src='/images/banner/homeBase1.png'
+          src='/images/banner/homeBase1.jpg'
           alt='Hero background'
           fill
           sizes='100vw'
-          quality={70}             
-          placeholder='blur'       
-          blurDataURL='/images/banner/homeBase1-blur.jpg' 
-          priority={false}         
-          loading='lazy'          
+          quality={80}
+          priority={true}
           className='
             object-contain    
             md:object-cover   
             object-center
-            transition-opacity duration-700 ease-in-out 
           '
         />
 

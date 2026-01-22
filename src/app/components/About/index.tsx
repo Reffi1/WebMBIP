@@ -39,9 +39,9 @@ const AboutPage = () => {
                     alt="Tentang Perusahaan"
                     fill
                     className="object-contain"
-                    priority={false}
-                    loading="lazy"
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 600px"
+                    quality={75}
+                    loading="lazy"
                   />
                 )}
               </div>
@@ -107,6 +107,7 @@ const AboutPage = () => {
                           width={128}
                           height={128}
                           className="w-32 h-32 object-cover rounded-full mx-auto border-4 border-blue-600"
+                          quality={75}
                           loading="lazy"
                         />
                       </div>

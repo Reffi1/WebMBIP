@@ -135,7 +135,7 @@
       "id": "sistem-integrasi",
       "title": "Sistem Integrasi Teknologi",
       "description": "Sistem integrasi teknologi adalah layanan yang menghubungkan berbagai perangkat, aplikasi, dan infrastruktur digital perusahaan agar dapat bekerja secara terpadu dan efisien. Melalui integrasi, alur kerja menjadi lebih sederhana, data dapat dikelola secara terpusat, dan proses bisnis berjalan lebih cepat serta terukur, layanan ini mencakup:",
-      "image": "/images/ourservice/Sistem Integrasi Teknologi.svg",
+      "image": "/images/ourservice/Sistem Integrasi Teknologi.jpg",
       "solutions": [
         {
           "id": 1,
@@ -148,7 +148,7 @@
       "id": "sistem-terkelola",
       "title": "Layanan Terkelola",
       "description": "Layanan terkelola adalah solusi pendampingan profesional di mana pengelolaan sistem teknologi informasi perusahaan dilakukan secara menyeluruh oleh tim ahli. Dengan layanan ini, perusahaan tidak perlu lagi terbebani oleh kompleksitas teknis, sehingga dapat lebih fokus pada pengembangan bisnis inti. Ruang lingkup layanan terkelola yang kami tawarkan meliputi:",
-      "image": "/images/ourservice/Layanan Terkelola.svg",
+      "image": "/images/ourservice/Layanan Terkelola.jpg",
       "solutions": [
         { "id": 1, "category": "⁠Instalasi& Aktivasi Infrastruktur" },
         { "id": 2, "category": "Perangkat Telekomunikasi & Perangkat Teknologi Informasi Pendukungnya (BTS, Radio Microwave, Catudaya, Baterai, Manage Servive)" },
@@ -161,7 +161,7 @@
       "id": "konstruksi-sipil",
       "title": "Kontruksi & Jasa Sipil",
       "description": "Kami menyediakan layanan konstruksi dan jasa sipil yang dirancang untuk mendukung kebutuhan infrastruktur perusahaan maupun mitra bisnis. Layanan ini mencakup:",
-      "image": "/images/ourservice/Jasa Kontruksi & Jasa Sipil.svg",
+      "image": "/images/ourservice/Jasa Kontruksi & Jasa Sipil.jpg.jpeg",
       "solutions": [
         { "id": 1, "category": "Pembangunan Gedung Baru atau Renovasi" },
         { "id": 2, "category": "Pembangunan Ruang ATM" },
@@ -173,7 +173,7 @@
       "id": "perdagangan-umum",
       "title": "Perdagangan Umum",
       "description": "Kami menyediakan layanan perdagangan umum dengan cakupan produk yang luas untuk mendukung kebutuhan berbagai sektor industri maupun layanan. Adapun ruang lingkup perdagangan yang kami tawarkan meliputi:",
-      "image": "/images/ourservice/Perdagangan Umum.svg",
+      "image": "/images/ourservice/Perdagangan Umum.jpg",
       "solutions": [
         { "id": 1, "category": "Suku Cadang" },
         { "id": 2, "category": "Mekanikal Elektrikal" },
