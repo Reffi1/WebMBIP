@@ -33,9 +33,6 @@
     }
   ],
   "TechGaintsData": [
-    { "imgSrc": "/images/companies/aa.png" },
-    { "imgSrc": "/images/companies/a.png" },
-    { "imgSrc": "/images/companies/b.png" },
     { "imgSrc": "/images/companies/1.png" },
     { "imgSrc": "/images/companies/2.png" },
     { "imgSrc": "/images/companies/3.png" },
@@ -56,7 +53,18 @@
     { "imgSrc": "/images/companies/18.png" },
     { "imgSrc": "/images/companies/19.png" },
     { "imgSrc": "/images/companies/20.png" },
-    { "imgSrc": "/images/companies/21.png" }
+    { "imgSrc": "/images/companies/21.png" },
+    { "imgSrc": "/images/companies/22.png" },
+    { "imgSrc": "/images/companies/23.png" },
+    { "imgSrc": "/images/companies/24.png" },
+    { "imgSrc": "/images/companies/25.png" },
+    { "imgSrc": "/images/companies/26.png" },
+    { "imgSrc": "/images/companies/27.png" },
+    { "imgSrc": "/images/companies/28.png" },
+    { "imgSrc": "/images/companies/29.png" },
+    { "imgSrc": "/images/companies/30.png" },
+    { "imgSrc": "/images/companies/31.png" },
+    { "imgSrc": "/images/companies/32.png" }
   ],
   "CourseData": [
     {

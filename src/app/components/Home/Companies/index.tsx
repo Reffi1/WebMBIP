@@ -12,17 +12,21 @@ const Companies = () => {
   const settings = {
     dots: false,
     infinite: true,
-    slidesToShow: 4,
+    slidesToShow: 5,
     slidesToScroll: 1,
     arrows: false,
     autoplay: true,
-    speed: 2000,
-    autoplaySpeed: 2000,
-    cssEase: 'linear',
+    speed: 1000,
+    autoplaySpeed: 3000,
+    cssEase: 'ease-in-out',
+    pauseOnHover: true,
+    pauseOnFocus: false,
+    swipeToSlide: true,
+    draggable: true,
     responsive: [
-      { breakpoint: 1024, settings: { slidesToShow: 4 } },
-      { breakpoint: 700, settings: { slidesToShow: 2 } },
-      { breakpoint: 500, settings: { slidesToShow: 1 } },
+      { breakpoint: 1024, settings: { slidesToShow: 4, slidesToScroll: 4 } },
+      { breakpoint: 700, settings: { slidesToShow: 3, slidesToScroll: 3 } },
+      { breakpoint: 500, settings: { slidesToShow: 2, slidesToScroll: 2 } },
     ],
   }
 
@@ -37,13 +41,15 @@ const Companies = () => {
         <div className="py-7 border-b">
           <Slider {...settings}>
             {techGaint.map((item, i) => (
-              <div key={i} className="flex justify-center">
+              <div key={i} className="flex justify-center items-center h-20 px-4">
                 <Image
                   src={item.imgSrc}
                   alt={`Logo ${i}`}
                   width={116}
                   height={40}
-                  className="w-auto"
+                  className="w-auto h-auto max-h-16 object-contain"
+                  unoptimized
+                  draggable={false}
                 />
               </div>
             ))}
