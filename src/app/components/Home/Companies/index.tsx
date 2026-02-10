@@ -12,17 +12,17 @@ const Companies = () => {
   const settings = {
     dots: false,
     infinite: true,
-    slidesToShow: 4,
+    slidesToShow: 5,
     slidesToScroll: 1,
     arrows: false,
     autoplay: true,
-    speed: 2000,
-    autoplaySpeed: 2000,
+    speed: 1000,
+    autoplaySpeed: 3000,
     cssEase: 'linear',
     responsive: [
-      { breakpoint: 1024, settings: { slidesToShow: 4 } },
-      { breakpoint: 700, settings: { slidesToShow: 2 } },
-      { breakpoint: 500, settings: { slidesToShow: 1 } },
+      { breakpoint: 1024, settings: { slidesToShow: 4, slidesToScroll: 1 } },
+      { breakpoint: 700, settings: { slidesToShow: 3, slidesToScroll: 1 } },
+      { breakpoint: 500, settings: { slidesToShow: 2, slidesToScroll: 1 } },
     ],
   }
 
@@ -37,14 +37,16 @@ const Companies = () => {
         <div className="py-7 border-b">
           <Slider {...settings}>
             {techGaint.map((item, i) => (
-              <div key={i} className="flex justify-center">
-                <Image
-                  src={item.imgSrc}
-                  alt={`Logo ${i}`}
-                  width={116}
-                  height={40}
-                  className="w-auto"
-                />
+              <div key={i} className="VueCarousel-slide flex justify-center items-center px-4">
+                <div className="relative w-[120px] h-[80px]">
+                  <Image
+                    src={item.imgSrc}
+                    alt={`Logo ${i}`}
+                    fill
+                    className="object-contain"
+                    loading="lazy"
+                  />
+                </div>
               </div>
             ))}
           </Slider>
